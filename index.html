@@ -879,6 +879,22 @@ footer { padding: 32px 80px; border-top: 1px solid var(--line); display: flex; a
 .tname { font-family: var(--fd); font-size: 14px; font-weight: 600; color: var(--white); letter-spacing: -0.2px; }
 .trole { font-family: var(--fm); font-size: 10px; color: var(--grey2); letter-spacing: 0.3px; margin-top: 2px; }
 .tstar { color: #f59e0b; font-size: 11px; margin-top: 3px; letter-spacing: 1px; }
+
+@media (max-width: 1024px) {
+  #testimonials { padding: 100px 48px 80px; }
+  .tgrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  #testimonials { padding: 60px 24px; }
+  .tgrid { grid-template-columns: 1fr; }
+  .tcard { padding: 24px 22px; }
+}
+
+@media (max-width: 480px) {
+  #testimonials { padding: 48px 16px; }
+  .tcard { padding: 20px 18px; }
+}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P8NDH306PN"></script>
